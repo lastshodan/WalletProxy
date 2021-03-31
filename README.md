@@ -2,25 +2,28 @@
 Wallet and Minimal Proxy contract
 
 Setup
+----
 
 git clone https://github.com/lastshodan/WalletProxy
 
-cd WalletProxy
+use the following commands:
 
-npm install
+#cd WalletProxy
 
-truffle console
+#npm install
 
-truffle(development)> compile 
+#truffle console
 
-you can also compile using Hardhat ----> npx hardhat compile 
+#truffle(development)> compile 
 
-truffle(development)> migrate --reset
+you can also compile using Hardhat ----> #npx hardhat compile 
 
-you can also deploy using hardhat -----> npx hardhat run scripts/deploy.js
+#truffle(development)> migrate --reset
+
+you can also deploy using hardhat -----> #npx hardhat run scripts/deploy.js
 
 run tests by:
 
-truffle(development)> test
+#truffle(development)> test
 
 You can use the above commands by spinning up Ganache-CLI.
