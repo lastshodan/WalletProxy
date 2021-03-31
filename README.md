@@ -8,24 +8,24 @@ Setup
 
 git clone https://github.com/lastshodan/WalletProxy
 
-use the following commands:
+Please use the following commands:
 
-#cd WalletProxy
+->cd WalletProxy
 
-#npm install
+->npm install
 
-#truffle console
+->truffle console
 
-#truffle(development)> compile 
+->truffle(development)> compile 
 
 you can also compile using Hardhat ----> #npx hardhat compile 
 
-#truffle(development)> migrate --reset
+->truffle(development)> migrate --reset
 
 you can also deploy using hardhat -----> #npx hardhat run scripts/deploy.js
 
 run tests by:
 
-#truffle(development)> test
+->truffle(development)> test
 
 You can use the above commands by spinning up Ganache-CLI.
