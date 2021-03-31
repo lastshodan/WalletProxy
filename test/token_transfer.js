@@ -17,7 +17,7 @@ contract('token_management', async (accounts) => {
 
     [accountA, accountB, accountC, accountD ] = accounts;
 
-    let bytes32Ape = web3.utils.fromAscii("BEAR");
+    let bytes32Ape = web3.utils.fromAscii("APE");
     let bytes32Degen = web3.utils.fromAscii("DEGEN");
     beforeEach(async () => {
         sender = await WalletLogic.new();
