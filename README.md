@@ -1,8 +1,7 @@
 # WalletProxy
-Wallet and Minimal Proxy contracts.
-WalletLogic contract located at contracts/WalletLogic.sol
-WalletProxy contract located at contracts/WalletProxy.sol
-DegenToken and ApeToken are ERC20 tokens that can be transfered to and from the wallet contract
+Wallet and Minimal Proxy contracts.Proxy contract delegatecall to the WalletLogic contract.WalletProxy contract impliments the Minimal Proxy pattern.
+The WalletLogic contract is located at contracts/WalletLogic.sol while the WalletProxy contract is located at contracts/WalletProxy.sol.
+DegenToken.sol and ApeToken.sol are ERC20 token contracts that can be transfered to and from the wallet contract
 
 Setup
 ----
