@@ -1,5 +1,5 @@
 # WalletProxy
-Wallet and Minimal Proxy contracts.WalletProxy contract impliments the Minimal Proxy pattern(EIP1167).
+Repo holds Wallet and Minimal Proxy contracts.WalletProxy contract impliments the Minimal Proxy pattern(EIP1167).
 The WalletLogic contract is located at contracts/WalletLogic.sol while the WalletProxy contract is located at contracts/WalletProxy.sol.
 DegenToken.sol and ApeToken.sol are ERC20 token contracts.They can be transfered to and from the WalletLogic contract.
 
