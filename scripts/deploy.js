@@ -1,4 +1,4 @@
-// This is a script for deploying the contracts. 
+// This is a Hardhat script for deploying the contracts. 
 
 async function main() {
   
