@@ -22,7 +22,7 @@ you can also compile using Hardhat ----> #npx hardhat compile
 
 ->truffle(development)> migrate --reset
 
-you can also deploy using hardhat -----> #npx hardhat run scripts/deploy.js
+you can also deploy using Hardhat -----> #npx hardhat run scripts/deploy.js
 
 run tests by:
 
