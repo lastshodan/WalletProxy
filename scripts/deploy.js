@@ -11,7 +11,6 @@ async function main() {
   console.log("Account balance:", (await deployer.getBalance()).toString());
 
 
-  
  //deploy DegenToken
 
   const DegenToken = await ethers.getContractFactory("DegenToken");
@@ -27,7 +26,6 @@ async function main() {
   const apetoken = await ApeToken.deploy();
   await apetoken.deployed();
   console.log("ApeToken address:", apetoken.address); 
-
 
 
   //deploy WalletLogic
