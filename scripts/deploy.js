@@ -20,7 +20,8 @@ async function main() {
   await degentoken.deployed();
   console.log("DegenToken address:", degentoken.address); 
 
-
+  //deploy ApeToken
+  
   const ApeToken = await ethers.getContractFactory("ApeToken");
   console.log("Deploying ApeToken....");
   const apetoken = await ApeToken.deploy();
