@@ -11,7 +11,7 @@ const should = require('chai')
 
 let sender, ape, degen;
 
-contract('token_management', async (accounts) => {
+contract('token_transfer', async (accounts) => {
 
     let accountA, accountB, accountC, accountD;
 
